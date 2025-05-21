@@ -1,0 +1,326 @@
+body{
+    background-image: url(images/white-gradient-background-1920-x-1200-47lrykb49ixqc08d.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+#musicPlayerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#musicPlayerContainer{
+    background-color: transparent;
+    width: 50vh;
+    height: 60%;
+    border-radius: 20px;
+}
+.center{
+    text-align: center;
+}
+#progress-container {
+    width: 50vh;
+    height: 7px;
+    background-color: hsl(0, 0%, 80%);
+    cursor: pointer;
+}
+
+#progress {
+    height: 5px;
+    background-color: hsl(0, 0%, 0%);
+    width: 0%;
+    box-shadow: 2px 4px 10px black;
+}
+.musicBtn{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+}
+.musicBtn:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+#musicBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#musicImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timeDisplay{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#wyhPlayListSong{
+    background-color: hsl(280, 30%, 25%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+}
+#wyhPlayListSong:hover{
+    background-color: hsl(280, 30%, 15%);
+}
+#gyPlaylistSong{
+    background-color: hsl(196, 58%, 36%);
+    width: 100%;
+    height: 7vh;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#gyPlaylistSong:hover{
+    background-color: hsl(191, 56%, 26%);
+}
+#wfPlayListSong{
+    background-color: hsl(132, 63%, 42%);
+    width: 100%;
+    height: 7vh;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#wfPlayListSong:hover{
+    background-color: hsl(132, 63%, 32%);
+}
+#nytPlayListSong{
+    background-color: hsl(24, 15%, 18%);
+    width: 100%;
+    height: 7vh;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#nytPlayListSong:hover{
+    background-color: hsl(24, 15%, 8%);
+}
+#sbtPlayListSong{
+    background-color: hsl(239, 89%, 48%);
+    width: 100%;
+    height: 7vh;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#sbtPlayListSong:hover{
+    background-color: hsl(239, 89%, 38%);
+}
+.songsPlayBtn{
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.backToPlaylistBtn{
+    width: 20%;
+    height: 5vh;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.backToPlaylistBtn:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+#rnbPlaylistSection{
+    background-color: hsl(280, 30%, 25%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+}
+#rnbPlaylistSection:hover{
+    background-color: hsl(280, 30%, 15%);
+}
+#popPlaylistSection{
+    background-color: hsl(30, 25%, 25%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#popPlaylistSection:hover{
+    background-color: hsl(30, 25%, 15%);
+}
+#amapianoPlaylistSection{
+    background-color: hsl(145, 70%, 45%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#amapianoPlaylistSection:hover{
+    background-color: hsl(145, 70%, 35%);
+}
+#housePlaylistSection{
+    background-color: hsl(200, 80%, 50%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#housePlaylistSection:hover{
+    background-color: hsl(200, 80%, 40%);
+}
+#toiPlayListSong{
+    background-color: hsl(0, 74%, 14%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#toiPlayListSong:hover{
+    background-color: hsl(0, 74%, 4%);
+}
+#pjPlaylistSong{
+    background-color: hsl(204, 88%, 13%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#pjPlaylistSong:hover{
+    background-color: hsl(204, 88%, 3%);
+}
+#smPlayListSong{
+    background-color: hsl(47, 80%, 50%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#smPlayListSong:hover{
+    background-color: hsl(47, 80%, 40%);
+}
+#nrmPlayListSong{
+    background-color: hsl(200, 80%, 50%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#nrmPlayListSong:hover{
+    background-color: hsl(200, 80%, 40%);
+}
+
+#sfPlayListSong{
+    background-color: hsl(60, 18%, 20%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#sfPlayListSong:hover{
+    background-color: hsl(60, 18%, 10%);
+}
+
+#iPlayListSong{
+    background-color: hsl(45, 37%, 51%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#iPlayListSong:hover{
+    background-color: hsl(45, 37%, 41%);
+}
+#scPlaylistSong{
+    background-color: hsl(210, 30%, 20%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#scPlaylistSong:hover{
+    background-color: hsl(210, 30%, 10%);
+}
+#bmPlayListSong{
+    background-color: hsl(0, 84%, 46%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#bmPlayListSong:hover{
+    background-color: hsl(0, 84%, 36%);
+}
+#lPlayListSong{
+    background-color: hsl(41, 33%, 28%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#lPlayListSong:hover{
+    background-color: hsl(41, 33%, 18%);
+}
+#jPlayListSong{
+    background-color: hsl(3, 80%, 21%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#jPlayListSong:hover{
+    background-color: hsl(3, 80%, 11%);
+}
+#sPlayListSong{
+    background-color: hsl(12, 78%, 19%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#sPlayListSong:hover{
+    background-color: hsl(12, 78%, 9%);
+}
+#wdaPlaylistSong{
+    background-color: hsl(0, 3%, 10%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#wdaPlaylistSong:hover{
+    background-color: hsl(0, 3%, 0%);
+}
+#ls28PlayListSong{
+    background-color: hsl(40, 3%, 21%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#ls28PlayListSong:hover{
+    background-color: hsl(40, 3%, 11%);
+}
+#hsPlayListSong{
+    background-color: hsl(180, 67%, 49%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#hsPlayListSong:hover{
+    background-color: hsl(180, 67%, 39%);
+}
+#pPlayListSong{
+    background-color: hsl(264, 81%, 34%);
+    width: 100%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#pPlayListSong:hover{
+    background-color: hsl(264, 81%, 24%);
+}

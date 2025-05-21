@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Shotta Flow</title>
+</head>
+<body>
+    <div id="musicPlayerWrapper">
+        <div id="musicPlayerContainer">
+            <div id="playListBtn">
+                <button class="backToPlaylistBtn" class="backToPopPlaylist" onclick="backToPopPlaylist()"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <div id="genreSection">
+                <h1 class="center">Pop</h1>
+            </div>
+            <div id="musicImg">
+                <img src="images/ab67616d0000b273349a68e6e92380dc2ecb54b5.jpeg" width="200px" height="150px">
+            </div>
+            <div id="MusicName">
+                <h3 class="center">Shotta Flow</h3>
+            </div>
+            <div id="musicArtist">
+                <h4 class="center">NLE Choppa (feat. Blueface)</h4>
+            </div>
+            <div id="timeDisplay">00:00 / 00:00</div>
+            <div id="musicTime">
+                <audio id="audio" src="music/NLE Choppa - Shotta Flow Remix ft. Blueface (Official Music Video)-yt.savetube.me.mp3" type="mp3"></audio>
+            </div>
+            <div id="progress-container">
+                <div id="progress"></div>
+            </div>
+            <div id="musicBtns">
+                <button id="sfPrevious" onclick="sfPrevious()" class="musicBtn"><i class="fas fa-backward"></i></button>
+                <button id="play-btn" onclick="play()" class="musicBtn"><i class="fas fa-play"></i></button>
+                <button id="sfNext" onclick="sfNext()" class="musicBtn"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

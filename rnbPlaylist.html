@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>RnB Playlist</title>
+</head>
+<body>
+    <div id="musicPlayerWrapper">
+        <div id="musicPlayerContainer">
+            <div id="playListBtn">
+                <button class="backToPlaylistBtn" class="backToRnbPlaylist" onclick="backToGenre()"><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+            <div>
+                <h1 class="center">RnB Playlist</h1>
+            </div>
+            <div id="wyhPlayListSong">
+                <button class="songsPlayBtn" onclick="whatYouHeard()">What You Heard - Sonder</button>
+            </div>
+            <div id="gyPlaylistSong">
+                <button class="songsPlayBtn" onclick="getYou()"> Get You - Daniel Caesar</button>
+            </div>
+            <div id="wfPlayListSong">
+                <button class="songsPlayBtn" onclick="whiteFerrari()">White Ferrari - Frank Ocean</button>
+            </div>
+            <div id="nytPlayListSong">
+                <button class="songsPlayBtn" onclick="notYouToo()">Not You Too - Drake</button>
+            </div>
+            <div id="sbtPlayListSong">
+                <button class="songsPlayBtn" onclick="sorrows()">Sorrows - Bryson Tiller</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
