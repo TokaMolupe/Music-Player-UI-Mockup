@@ -225,7 +225,7 @@ function wdaNext() {
 }
 
 function wdaPrevious() {
-    window.location.href = 'lovesong28.html';
+    window.location.href = 'still.html';
 }
 
 function ls28Next() {
